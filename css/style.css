@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  background: url('../images/hero.jpg') center/cover no-repeat;
+  height: 90vh;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.badge-custom {
+  background-color: #198754;
+}
+
+.meal-card {
+  transition: 0.3s;
+}
+
+.meal-card:hover {
+  transform: translateY(-5px);
+}
